@@ -57,9 +57,9 @@ Ensure you have PostgreSQL installed and running. The database should contain th
 ## Error Handling
 Errors are handled with appropriate HTTP status codes and messages:
 
--200 OK: Successful request.
--404 Not Found: Data not found for the requested resource.
--500 Internal Server Error: An unexpected server error occurred.
+- 200 OK: Successful request.
+- 404 Not Found: Data not found for the requested resource.
+- 500 Internal Server Error: An unexpected server error occurred.
 
 You can also check the API response sing Postman/Thunder.
 
