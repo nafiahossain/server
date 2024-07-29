@@ -40,3 +40,19 @@ Response:
 200 OK with hotel and room data.
 404 Not Found if the hotel or room is not found.
 500 Internal Server Error for server issues.
+
+## Database Setup
+Ensure you have PostgreSQL installed and running. The database should contain the necessary tables (hotel and hotel_rooms) with appropriate schema to store the hotel and room data. The queries for tables can be found in database.sql file.
+
+## Error Handling
+Errors are handled with appropriate HTTP status codes and messages:
+
+200 OK: Successful request.
+404 Not Found: Data not found for the requested resource.
+500 Internal Server Error: An unexpected server error occurred.
+
+You can also check the API response sing Postman/Thunder.
+
+## Notes
+1. Ensure that the PostgreSQL database is properly set up and the connection details in the code match your setup.
+2. You may need to adjust the table schemas and fields based on your specific requirements.
